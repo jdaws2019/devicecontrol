@@ -1,0 +1,19 @@
+<PolicyRules>
+	<PolicyRule Id="{c0a90b94-510f-4bd8-862e-40866cc7954}">
+		<Name>Block Removable Storage</Name>
+		<IncludedIdList>
+			<GroupId>{34ec4928-33be-47dc-8430-28f38a523315}</GroupId>
+		</IncludedIdList>
+		<ExcludedIdList/>
+		<Entry Id="{a76edf09-c796-48f0-938c-6d845172699c}">
+			<Type>Deny</Type>
+			<Options>0</Options>
+			<AccessMask>7</AccessMask>
+		</Entry>
+        	<Entry Id="{44fe3ede-ccb5-4ff4-856c-72c4000f0973}">
+			<Type>AuditDenied</Type>
+			<Options>3</Options>
+			<AccessMask>7</AccessMask>
+		</Entry>
+	</PolicyRule>
+</PolicyRules>
