@@ -1,1 +1,2 @@
 # devicecontrol
+I am attempting to deploy a very simple Device Control policy via GPO. I have the groups defined in groups.xml and the policy defined in policies.xml. When I deploy via GPO I can see the endpoint pick up these files in the registry, but the actual combined policy does not build. I have been struggling trying to find a schema reference to the XML and am unsure if I'm using incompatible options or what. Putting this out here for comment or help.
